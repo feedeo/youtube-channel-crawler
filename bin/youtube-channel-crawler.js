@@ -14,27 +14,29 @@ process.on('unhandledRejection', error => {
 
 const program = require('commander')
 
-const YoutubeChannelCrawler = require('../lib')
-
 let apiKey
 let username
 
 program
   .version('1.0.0')
   .arguments('<apiKey> <username>')
-  .action(function (a, u) {
-    apiKey = a
-    username = u
+  .action((_apiKey, _username) => {
+    apiKey = _apiKey
+    username = _username
   })
   .parse(process.argv)
 
-if (!username) {
-  console.error('Correct usage: youtube-channel-crawler <apiKey> <username>')
+if (!apiKey || !username) {
+  program.outputHelp()
+
   process.exit(1)
 }
 
+const YouTubeChannelCrawler = require('../lib')
+const instance = new YouTubeChannelCrawler({ apiKey })
+
 // noinspection JSUnusedAssignment
-YoutubeChannelCrawler.getChannelStatisticsByUsername(apiKey, username)
+instance.getChannelStatisticsByUsername(username)
   .then((statistics) => {
     console.log(JSON.stringify(statistics, null, 2))
   })
