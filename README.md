@@ -1,9 +1,10 @@
 # YouTube Channel :tv: Crawler
-
+[![Version](https://img.shields.io/npm/v/youtube-channel-crawler.svg)](https://www.npmjs.com/package/youtube-channel-crawler)
+[![Downloads](https://img.shields.io/npm/dt/youtube-channel-crawler.svg)](https://www.npmjs.com/package/youtube-channel-crawler) 
 
 ### Install
 ```
-npm install youtube-channel-crawler
+npm install youtube-channel-crawler -g
 ```
 
 ### Usage
