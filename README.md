@@ -1,4 +1,5 @@
 # YouTube Channel :tv: Crawler
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![Version](https://img.shields.io/npm/v/youtube-channel-crawler.svg)](https://www.npmjs.com/package/youtube-channel-crawler)
 [![Downloads](https://img.shields.io/npm/dt/youtube-channel-crawler.svg)](https://www.npmjs.com/package/youtube-channel-crawler) 
 
