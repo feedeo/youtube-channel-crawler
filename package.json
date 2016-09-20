@@ -20,9 +20,16 @@
     "request": "^2.75.0"
   },
   "scripts": {
-    "start": "node lib/index.js"
+    "start": "node lib/index.js",
+    "test": "node_modules/.bin/eslint ." 
   },
   "bin": {
     "youtube-channel-crawler": "./bin/youtube-channel-crawler.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.5.0",
+    "eslint-config-standard": "^6.0.1",
+    "standard": "^8.1.0"
   }
 }

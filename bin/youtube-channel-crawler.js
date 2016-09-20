@@ -30,7 +30,7 @@ program
 
 if (!username) {
   console.error('Correct usage: youtube-channel-crawler <apiKey> <username>');
-  process.exit(1);
+  process.exit(1)
 }
 
 // noinspection JSUnusedAssignment
