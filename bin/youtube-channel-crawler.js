@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
 process.on('uncaughtException', error => {
-  consol.error(error);
+  console.error(error);
 
   process.exit(1)
 });
 
 process.on('unhandledRejection', error => {
-  consol.error(error);
+  console.error(error);
 
   process.exit(1)
 });
