@@ -1,0 +1,28 @@
+{
+  "name": "youtube-channel-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feedeo/youtube-channel-crawler.git"
+  },
+  "author": "Hugo Freire <hugo@feedeo.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feedeo/youtube-channel-crawler/issues"
+  },
+  "homepage": "https://github.com/feedeo/youtube-channel-crawler#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "bluebird-retry": "^0.8.0",
+    "commander": "^2.9.0",
+    "request": "^2.75.0"
+  },
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "bin": {
+    "youtube-channel-crawler": "./bin/youtube-channel-crawler.js"
+  }
+}
