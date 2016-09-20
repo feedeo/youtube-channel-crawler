@@ -8,6 +8,7 @@ git clone https://github.com/feedeo/youtube-channel-crawler.git
 
 ```
 cd youtube-channel-crawler
+npm install
 ```
 
 ```
