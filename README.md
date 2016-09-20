@@ -1,24 +1,15 @@
-# youtube-channel-crawler
+# YouTube Channel :tv: Crawler
 
 
 ### Install
 ```
-git clone https://github.com/feedeo/youtube-channel-crawler.git
+npm install youtube-channel-crawler
 ```
 
-```
-cd youtube-channel-crawler
-npm install
-```
+### Usage
 
 ```
-./bin/youtube-channel-crawler <apiKey> <username>
-```
-
-### Example
-
-```
-./bin/youtube-channel-crawler.js "my-secret-key" bygghemma
+youtube-channel-crawler "my-secret-key" bygghemma
 
 {
   "viewCount": "1746964",
@@ -29,7 +20,3 @@ npm install
 }
 
 ```
-
-### TODO
-
-* Add to NPM public repository
