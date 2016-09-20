@@ -10,7 +10,8 @@ npm install youtube-channel-crawler
 
 ```
 youtube-channel-crawler "my-secret-key" bygghemma
-
+```
+```javascript
 {
   "viewCount": "1746964",
   "commentCount": "2",
