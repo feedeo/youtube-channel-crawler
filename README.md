@@ -1,4 +1,6 @@
 # YouTube Channel :tv: Crawler
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/feedeo/youtube-channel-crawler.svg)](https://greenkeeper.io/)
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![Version](https://img.shields.io/npm/v/youtube-channel-crawler.svg)](https://www.npmjs.com/package/youtube-channel-crawler)
 [![](https://img.shields.io/github/release/feedeo/youtube-channel-crawler.svg)](https://github.com/feedeo/youtube-channel-crawler/releases)
